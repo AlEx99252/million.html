@@ -1,0 +1,33 @@
+H1{ text-align: center;
+   font-size: xx-large;
+   background-color: blue;
+}
+h2{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+h3{
+    height: 150px;
+    width: 650px;
+    background-color: tomato;
+    text-align: center;
+    float: right;
+    font-size: xx-large;
+}
+
+/*set general horizontal menu button*/
+nav ul{ border: 2px; float:right; height:35px; margin-left: 50px;text-align: center; list-style-type:none; width:1000px; }
+/* set general horizontal menu button sytle*/
+nav ul li{display:inline-block}
+li.btn{width: 130px; line-height: 23px; margin-bottom: 7px; margin-right: 30px; text-align:center ;}
+/* set general acess(anchor)style*/
+li.btn a {display:inline-block; width:100px; color:white; font-family:arial;} 
+  /* mouseout (default) */ 
+li.btn a {background: #1A9CE0; border:7px outset #AABAFF;} 
+/* mouseover */ 
+li.btn a:hover {background:purple; border:7px outset #8ABAFF;} 
+/* mousedown */ 
+li.btn a:active {background:#AECBFF; border:7px inset #AECBFF; }
